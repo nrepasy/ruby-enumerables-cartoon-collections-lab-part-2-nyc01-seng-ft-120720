@@ -20,7 +20,11 @@ end
 def find_valid_calls(planeteer_calls)
 valid_calls=["Earth!", "Wind!", "Fire!", "Water!", "Heart"]
 
+<<<<<<< HEAD
 (valid_calls.find {|call| planeteer_calls.include? call })
+=======
+valid_calls.include?(planeteer_calls.find {|call|})
+>>>>>>> 0c84dee20729a67b86d30dcadb2c551c5748b2f1
 
 end
 
